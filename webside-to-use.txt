@@ -1,0 +1,8 @@
+http://www.runoob.com/ 
+## HTML, Bootstrap study webside
+
+https://material.io/guidelines/style/color.html#color-color-palette
+## google platte: to pick a adequate color
+
+https://fonts.google.com/
+## google fonts
