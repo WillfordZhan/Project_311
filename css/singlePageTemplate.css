@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: source-sans-pro;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+/* Container */
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background: url(../images/bg.webp)
+}
+/* Navigation */
+header {
+	width: 100%;
+	height: 4%;
+	background-color:#FFFFFF;
+	border-bottom: 1px solid #2C9AB7;
+}
+.logo {
+	color: #000000;
+	transform: scale(1,0.8);
+	font-weight:900;
+	text-align:right;
+	width: 30%;
+	float: left;
+	margin-top: 8px;
+	margin-left: 25px;
+	letter-spacing: 4px;
+}
+nav {
+	float: right;
+	width: 37%;
+	height: 100%;
+	text-align: right;
+	margin-right: 0px;
+	background-color:#FFFFFF
+}
+header nav ul {
+	list-style: none;
+	float: left;
+	margin-top: 10px
+}
+nav ul li {
+	float:left;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align:left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	transition: all 0.3s linear;
+}
+ul li a {
+	color:#000000;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #FC9F4D;/*萱草色*/ 
+}
+
+.STQ{
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:300px;
+	background-color: #FFFFFF;
+}
+.STQ_MID{
+	width: 300px;
+	height: 160px;
+	background-color: aqua;
+	color: #000000;
+	text-align:center;
+	line-height: 300px;
+}
+
+.STQ_FONT{
+	text-decoration: none;
+}
