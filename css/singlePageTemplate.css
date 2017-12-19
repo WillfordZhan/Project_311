@@ -122,3 +122,12 @@ ul li:hover a {
 	height: 90px;
 }
 
+.login{
+	width: 600px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:300px;
+	background-color: #FFFFFF;
+}
+
