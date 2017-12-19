@@ -8,3 +8,9 @@
 #father{
     height: 100%
 }
+#title{
+    
+}
+.clear-float{
+    clear: both;
+}
