@@ -28,12 +28,14 @@ header {
 .logo {
 	color: #000000;
 	transform: scale(1,0.8);
-	font-weight:900;
+	font-weight:600;
+	font-size: 200%;
 	text-align:right;
 	width: 30%;
 	float: left;
 	margin-top: 16px;
 	margin-left: 50px;
+	
 	letter-spacing: 4px;
 }
 nav {
@@ -56,7 +58,8 @@ nav ul li {
 	text-align:left;
 	margin-right: 25px;
 	letter-spacing: 2px;
-	font-weight: normal;
+	font-size: 150%;
+	font-weight: lighter;
 	transition: all 0.3s linear;
 }
 ul li a {
@@ -64,7 +67,7 @@ ul li a {
 	text-decoration: none;
 }
 ul li:hover a {
-	color: #FC9F4D;/*萱草色*/ 
+	color: rgb(230, 128, 39);/*萱草色*/ 
 }
 
 .STQ{
@@ -98,7 +101,7 @@ ul li:hover a {
 	text-decoration: none;
 	text-shadow: 0px 2px 5px #000;
 	font-family:'宋体';
-	font-size: 48px;
+	font-size: 64px;
 }
 
 .STQ_MID{
@@ -113,7 +116,7 @@ ul li:hover a {
 	color:#DB4D6D;/*中红*/
 	text-align: center;
 	text-shadow: 0px 2px 1px #FB4F51;
-	font-size:12px;
+	font-size:20px;
 	font-style: italic;
 }
 

@@ -17,6 +17,10 @@
 	bottom: 40px;
 	right: 10px;
 }*/
+.line-b1{
+	font-family: 'Diplomata SC', cursive;
+	font-size: 300%;
+}
 .clubsHead {
 	color:white;
 	font-family: 'Diplomata SC', cursive;
@@ -32,6 +36,7 @@
 .slogen{
 	color: white;
 	font-size:400%;
+	font-weight: lighter;
 }
 .slogen2{
 	color: white;
@@ -45,7 +50,6 @@
 }
 .club-list{
 	font-size: 150%;
-	
 }
 li{list-style:none}
 .block_2{
@@ -61,7 +65,7 @@ li{list-style:none}
 	width: 100%
 }
 /* 外部多级下拉框样式*/
-<span style="font-size:24px;">.dropdown-submenu {  
+<span style="font-size:35px;">.dropdown-submenu {  
 	position: relative;  
 }  
 .dropdown-submenu > .dropdown-menu {  
@@ -85,10 +89,12 @@ li{list-style:none}
 	border-color: transparent;  
 	border-style: solid;  
 	border-width: 5px 0 5px 5px;  
-	border-left-color: #ccc;  
+	border-left-color: rgb(204, 204, 204);  
 	margin-top: 5px;  
 	margin-right: -10px;  
 }  
+
+
 .dropdown-submenu:hover > a:after {  
 	border-left-color: rgb(255, 255, 255);  
 }  
