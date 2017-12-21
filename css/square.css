@@ -1,16 +1,27 @@
-.bgcoloring{
+.bgcoloring {
     background-color: #ffffff
 }
-.imgshadow{
-    box-shadow: 10px 5px 25px 0 rgba(46,61,73,.2);
+
+.imgshadow {
+    box-shadow: 10px 5px 25px 0 rgba(46, 61, 73, .2);
     border-radius: 0.375rem;
 }
-#father{
+
+#father {
     height: 100%
 }
-#title{
-    
-}
-.clear-float{
+
+.clear-float {
     clear: both;
+}
+
+.selected{
+    -webkit-transition: -webkit-transform 3s;
+    transition:  transform 3s;
+}
+
+.selected:hover{
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    
 }
