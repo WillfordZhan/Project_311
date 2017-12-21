@@ -10,6 +10,9 @@
   <link rel="stylesheet" type="text/css" href="css/singlePageTemplate.css">
   <link rel="stylesheet" type="text/css" href="css/square.css">
   <link rel="stylesheet" type="text/css" href="css/clubs.css">
+  <link rel="stylesheet" href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+  <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+  <script type="text/javascript" src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Diplomata+SC" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Diplomata+SC|Lobster" rel="stylesheet">
   <script>
@@ -130,7 +133,7 @@
   <div class="container-fluid mother">
     <br>
     <br>
-   
+
     <div class="row clubsHead">
       <!-- 副标题行 -->
       <div class="col-md-6 line-b1">
@@ -155,7 +158,7 @@
       <div class="col-md-1"></div>
       <div class="col-md-4 slogen2">
         <br>
-        
+
         <p>shiny,&nbsp;alive</p>
         <p>&nbsp;&nbsp;&nbsp;satisfy all your imagination</p>
       </div>
@@ -164,117 +167,215 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid club-list">
-    <br>
-    <br>
-    <br>
-    <br>
+  <div class="container-fluid club-list " style="background-color:rgb(24, 23, 23)">
+    <div class="row" style="background-color:aliceblue;margin-bottom:40px;">
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+
     <div class="row main">
       <div class="col-md-6">
-          <div class="row clear-float">
-              <div class="col-md-6 block_1" align="center">
-                <p style="font-weight: bold; font-size: 150%">ARTS&MUSIC</p>
-                <ul>
-                  <li>
-                    <a href="#">热音社</a>
-                  </li>
-                  <li>
-                    <a href="#">阿卡贝拉和声团</a>
-                  </li>
-                  <li>
-                    <a href="#">大象画室</a>
-                  </li>
-                  <li>
-                    <a href="#">呆萌吉他社</a>
-                  </li>
-                  <li>
-                    <a href="#">知青话剧</a>
-                  </li>
-                </ul>
+        <div class="row clear-float">
+          <div class="col-md-6 block_1" align="center" style="background-color:aliceblue">
+            <p style="font-weight: bold; font-size: 150%">ARTS&MUSIC</p>
+            <ul>
+              <li>
+                <a href="#">热音社</a>
+              </li>
+              <li>
+                <a href="#">阿卡贝拉和声团</a>
+              </li>
+              <li>
+                <a href="#">大象画室</a>
+              </li>
+              <li>
+                <a href="#">呆萌吉他社</a>
+              </li>
+              <li>
+                <a href="#">知青话剧</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 block_3" align="center">
+            <p style="font-weight: bold; font-size: 150%">TALENT&SKILLS</p>
+            <ul>
+              <li>
+                <a href="#">烂柯棋社</a>
+              </li>
+              <li>
+                <a href="#">德云社</a>
+              </li>
+              <li>
+                <a href="#">金牌推理社</a>
+              </li>
+              <li>
+                <a href="#">LOL电竞俱乐部</a>
+              </li>
+              <li>
+                <a href="#">发明家们</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="row clear-float">
+          <div class="col-md-6 block_2" align="center">
+            <p style="font-weight: bold; font-size: 150%">SPORTS&FITNESS</p>
+            <ul>
+              <li>
+                <a href="#">步行者户外求生俱乐部</a>
+              </li>
+              <li>
+                <a href="#">JC街舞社</a>
+              </li>
+              <li>
+                <a href="#">肌肉先生</a>
+              </li>
+              <li>
+                <a href="#">跑酷联盟</a>
+              </li>
+              <li>
+                <a href="#">跆拳道社</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 block_4" align="center" style="background-color:aliceblue">
+            <p style="font-weight: bold; font-size: 150%">FASHION&COLLECTIONS</p>
+            <ul>
+              <li>
+                <a href="#">集邮fans</a>
+              </li>
+              <li>
+                <a href="#">cosplay萌娘团</a>
+              </li>
+              <li>
+                <a href="#">黑胶发烧迷</a>
+              </li>
+              <li>
+                <a href="#">vintage teens</a>
+              </li>
+              <li>
+                <a href="#">文玩社</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <hr>
+        <div class="row clear-float more_clubs" style="margin-top:50px">
+          <div class="col-md-3" style="text-align:right">
+            <p style="color:aliceblue">查找社团</p>
+          </div>
+          <div class="col-md-3">
+            <input type="text" class="form-control" />
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-2">
+                <button class="btn btn-primary">搜索</button>&nbsp</div>
+              <div class="col-md-4"></div>
+              <div class="col-md-2 dropdown">
+                <!--代码插入点-->
+                <span style="font-size:24px;">
+                  <div class="container">
+
+
+
+                    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" data-target="#" href="javascript:;">
+                      更多社团分类
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                      
+                      <li class="dropdown-submenu">
+                        <a tabindex="-1" href="javascript:;">SOCIALITY</a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a tabindex="-1" href="javascript:;">单身哈狗帮</a>
+                          </li>
+                          
+                          <li>
+                              <a tabindex="-1" href="javascript:;">缘友社</a>
+                          </li>
+
+                          <li>
+                              <a tabindex="-1" href="javascript:;">圆桌会</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown-submenu">
+                          <a tabindex="-1" href="javascript:;">FILM&LITER</a>
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a tabindex="-1" href="javascript:;">闪星影迷协会</a>
+                            </li>
+                            
+                            <li>
+                                <a tabindex="-1" href="javascript:;">美剧社</a>
+                            </li>
+  
+                            <li>
+                                <a tabindex="-1" href="javascript:;">超级宅基地</a>
+                            </li>
+
+                            <li>
+                                <a tabindex="-1" href="javascript:;">古典文学研讨小组</a>
+                            </li>
+
+                            <li>
+                                <a tabindex="-1" href="javascript:;">垮掉一代</a>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="javascript:;">OTHERS</a>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a tabindex="-1" href="javascript:;">腐女集中营</a>
+                              </li>
+                              
+                              <li>
+                                  <a tabindex="-1" href="javascript:;">涂鸦行动</a>
+                              </li>
+    
+                              <li>
+                                  <a tabindex="-1" href="javascript:;">屁孩儿社</a>
+                              </li>
+                            </ul>
+                          </li>
+
+                    </ul>
+
+
+                  </div>
+                </span>
+
+                <!--代码插入点-->
               </div>
-              <div class="col-md-6 block_3" align="center">
-                <p style="font-weight: bold; font-size: 150%">TALENT&SKILLS</p>
-                <ul>
-                  <li>
-                    <a href="#">烂柯棋社</a>
-                  </li>
-                  <li>
-                    <a href="#">德云社</a>
-                  </li>
-                  <li>
-                    <a href="#">金牌推理社</a>
-                  </li>
-                  <li>
-                    <a href="#">LOL电竞俱乐部</a>
-                  </li>
-                  <li>
-                    <a href="#">发明家们</a>
-                  </li>
-                </ul>
-              </div>
-        
             </div>
-        
-            <div class="row clear-float">
-              <div class="col-md-6 block_2" align="center">
-                <p style="font-weight: bold; font-size: 150%">SPORTS&FITNESS</p>
-                <ul>
-                  <li>
-                    <a href="#">步行者户外求生俱乐部</a>
-                  </li>
-                  <li>
-                    <a href="#">JC街舞社</a>
-                  </li>
-                  <li>
-                    <a href="#">肌肉先生</a>
-                  </li>
-                  <li>
-                    <a href="#">跑酷联盟</a>
-                  </li>
-                  <li>
-                    <a href="#">跆拳道社</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-6 block_4" align="center">
-                <p style="font-weight: bold; font-size: 150%">FASHION&COLLECTIONS</p>
-                <ul>
-                  <li>
-                    <a href="#">集邮family</a>
-                  </li>
-                  <li>
-                    <a href="#">cosplay萌娘团</a>
-                  </li>
-                  <li>
-                    <a href="#">黑胶发烧俱乐部</a>
-                  </li>
-                  <li>
-                    <a href="#">vintage teens</a>
-                  </li>
-                  <li>
-                    <a href="#">文玩社</a>
-                  </li>
-                </ul>
-              </div>
-        
-            </div>
-            
-            
-            <div class="row clear-float more_clubs" style="margin-top:50px">
-              <div class="col-md-3" style="text-align:right">查找社团</div>
-              <div class="col-md-6"><input type="text" class="form-control"/></div>
-              <div class="col-md-3">
-                  <button class="btn btn-primary">搜索</button>&nbsp
-                  <button class="btn btn-primary">更多社团</button>
-              </div>
-            </div>
-    </div>
+
+          </div>
+        </div>
+        <br>
+        <hr>
+      </div>
+      
       <div class="col-md-6">
-          <img class="singer" src="images/clubsimg/singer.jpg" alt="singer">
+        <img class="singer" src="images/clubsimg/singer.jpg" alt="singer">
       </div>
     </div>
+    <br>
+    <br>
+    <br>
     
   </div>
+  
   <!-- Main Container Ends -->
 </body>
 
