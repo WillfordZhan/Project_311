@@ -24,7 +24,8 @@
     transition:  transform 0.5s, opacity 0.5s, perspective 0.5s, filter 0.5s;
 }
 
-.selected:hover{ /* todo: 1. add perspective, 2. fix the shake of hover*/
+.selected:hover{ 
+    /* todo: 1. add perspective, 2. fix the shake of hover*/
     opacity: 0.5;
     -webkit-filter: contrast(30%);
     filter:contrast(30%);
