@@ -2,13 +2,13 @@ jQuery(document).ready(function($){
     var ismouseenter = false // 初态未移入鼠标
     var imgdiv = $('.unselected');
     var img = $('img-card');
-    var hidden = $('.hidden-info');
+    var cardContent = $('.card-content');
     imgdiv.mouseenter(function(){
         //alert('');
         if (ismouseenter == true) {
             return;
         }
-        hidden.animate({
+        cardContent.animate({
             opacity:1
         },500);
         ismouseenter = true;
@@ -18,7 +18,7 @@ jQuery(document).ready(function($){
         if (ismouseenter == false) {
             return;
         }
-        hidden.animate({
+        cardContent.animate({
             opacity:0
         },500);
         ismouseenter = false;
