@@ -45,11 +45,11 @@
 }
 .ballet{
 	padding-top: 50px;
-	background-color: blanchedalmond;
+	background-color: rgba(251, 49, 64, 0.45);
 	padding-left: 20px;
 }
 .club-list{
-	font-size: 150%;
+	font-size: 130%;
 }
 li{list-style:none}
 .block_2{
