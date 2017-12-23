@@ -15,16 +15,21 @@
     clear: both;
 }
 
-.selected{
+.unselected{
+    z-index: 1;
+}
+
+.img-card{
+    z-index: inherit;
     opacity: 1;
     -webkit-filter: contrast(100%);
     filter:contrast(100%);
     -webkit-perspective: 800px;
-    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s, -webkit-perspective 0.5s, -webkit-filter 0.5s;
-    transition:  transform 0.5s, opacity 0.5s, perspective 0.5s, filter 0.5s;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out 0.2s, opacity 0.5s ease-in-out 0.2s, -webkit-perspective 0.5s ease-in-out 0.2s, -webkit-filter 0.5s ease-in-out 0.2s;
+    transition:  transform 0.5s ease-in-out 0.2s, opacity 0.5s ease-in-out 0.2s, perspective 0.5s ease-in-out 0.2s, filter 0.5s ease-in-out 0.2s;
 }
 
-.selected:hover{ 
+.img-card:hover{ 
     /* todo: 1. add perspective, 2. fix the shake of hover*/
     opacity: 0.5;
     -webkit-filter: contrast(30%);
@@ -36,6 +41,19 @@
     animation: cd-rotate;
 }
 
+.club-name{
+    
+}
+
+.activity-info{
+    
+}
+
+.hidden-info{
+    z-index: 2;
+    opacity: 0;
+}
+/*
 @keyframes cd-rotate{
     0%{
         transform: perspective(800px)
@@ -46,4 +64,4 @@
     100%{
         transform: perspective(800px)
     }
-}
+}*/
