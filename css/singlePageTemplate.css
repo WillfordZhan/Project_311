@@ -11,7 +11,7 @@ body {
 	font-weight: 200;
 }
 /* Container */
-.container {
+.container1 {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -122,12 +122,126 @@ ul li:hover a {
 	height: 90px;
 }
 
-.login{
-	width: 600px;
-	height: 400px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top:300px;
-	background-color: #FFFFFF;
+#login_frame{
+	width: 500px;
+	height:260px;
+	padding:13px;
+	
+	position:absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -200px;
+	margin-top: -200px;
+	
+	background-color: rgba(151,151,151,0.5);
+	/*background-color: rgba(240,255,255,0.5);*/
+	border-radius:10px;
+	text-align: center;
 }
 
+form p > * {  
+    display: inline-block;  
+    vertical-align: middle;  
+}
+
+#image_logo{
+	margin-top: 22px;
+}
+
+.label_input{
+	font-size: 14px;
+	font-family: '宋体';
+	
+	width: 65px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	
+	color: white;
+	background-color:rgba(31,134,155,1.00);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.text_field{
+	width: 278px;
+	height:28px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: 0;
+}
+
+#btn_login{
+	font-size: 14px;  
+    font-family: '宋体';  
+    
+    width: 120px;  
+    height: 28px;  
+    line-height: 28px;  
+    text-align: center; 
+	font-weight: 900;
+  
+    color: white;  
+    background-color: #F9BF45;  
+    border-radius: 6px;  
+    border: 0;  
+	float: left;
+}
+
+#btn_register{
+	font-size: 14px;  
+    font-family: '宋体';  
+  
+    width: 120px;  
+    height: 28px;  
+    line-height: 28px;  
+    text-align: center; 
+    font-weight: 900;
+  
+    color: white;  
+    background-color: #F9BF45;  
+    border-radius: 6px;  
+    border: 0;  
+  
+    float:inherit;
+}
+
+#forget_pwd{
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	position: relative;
+	float: right;
+	top:5px;
+}
+
+#forget_pwd:hover {  
+    color: blue;  
+    text-decoration: underline;  
+}  
+  
+#login_control {  
+    padding: 0 78px;
+} 
+
+
+.login_form{
+	width: 250px;
+	height:200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.F0{
+	font-size: 60px;
+	font-family:'华文琥珀';
+	font-weight: 200;
+	color:rgba(195,71,73,1.00);
+}
+
+.F1{
+	font-size: 24px;
+	font-family:Governor;
+	font-weight: 900;
+	color:rgba(195,71,73,1.00);
+}
