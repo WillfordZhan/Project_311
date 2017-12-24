@@ -8,7 +8,12 @@
 }
 
 #father {
-    height: 100%
+    height: 100%;
+}
+
+#title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 300%;
 }
 
 .clear-float {
