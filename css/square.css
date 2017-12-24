@@ -24,33 +24,35 @@
     opacity: 1;
     -webkit-filter: contrast(100%);
     filter:contrast(100%);
-    -webkit-perspective: 800px;
+    -webkit-perspective: 800;
+    perspective: 800;
     -webkit-transition: -webkit-transform 0.5s ease-in-out 0.2s, opacity 0.5s ease-in-out 0.2s, -webkit-perspective 0.5s ease-in-out 0.2s, -webkit-filter 0.5s ease-in-out 0.2s;
     transition:  transform 0.5s ease-in-out 0.2s, opacity 0.5s ease-in-out 0.2s, perspective 0.5s ease-in-out 0.2s, filter 0.5s ease-in-out 0.2s;
 }
 
-.img-card:hover{ 
+.img-card-move{ 
     /* todo: 1. add perspective, 2. fix the shake of hover*/
-    opacity: 0.5;
+    opacity: 0.3;
     -webkit-filter: contrast(30%);
     filter:contrast(30%);
-    -webkit-perspective:800px;
-    perspective: 800px;
+    perspective: 800;
+    -webkit-perspective:800;
+    perspective: 800;
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
-    animation: cd-rotate;
 }
 
 .card-content{
     z-index: 2;
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+    top: 25%;
+    left: 25%;
+    height: 50%;
+    width: 50%;
     font-family: adobe-clean, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: white;
+    color: rgb(17, 12, 12);
     opacity: 0;
+    align: center;
 }
 
 .club-name{
@@ -69,15 +71,9 @@
     z-index: 2;
     opacity: 0;
 }
-/*
-@keyframes cd-rotate{
-    0%{
-        transform: perspective(800px)
-    }
-    70%{
-        transform: perspective(800px)
-    }
-    100%{
-        transform: perspective(800px)
-    }
-}*/
+
+.activity-name{
+    font-family: adobe-clean, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
