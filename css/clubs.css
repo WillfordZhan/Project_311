@@ -42,7 +42,7 @@ li{list-style:none}
 	width: 100%
 }
 /* 外部多级下拉框样式*/
-<span style="font-size:35px;">.dropdown-submenu {  
+.dropdown-submenu {  
 	position: relative;  
 }  
 .dropdown-submenu > .dropdown-menu {  
