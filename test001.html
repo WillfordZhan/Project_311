@@ -1,0 +1,492 @@
+
+
+
+
+    <!DOCTYPE html>
+    <html lang="en" >
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="renderer" content="webkit"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta name="author"  />
+        <meta name="robots" content="index, follow" />
+        
+    
+    <meta property="og:title" content="宝可梦社" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+
+    
+    
+    
+    <meta property="og:updated_time" content="2017-07-15T00:55:00&#43;08:00"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        <meta name="keywords" content="">
+        <link rel="canonical" href="https://soulteary.com/">
+        <title>community</title>
+    
+    <link rel="stylesheet" href="https://soulteary.com/common.css?v=DawnEve&t=20170714-1r"/>
+    
+    <link rel="stylesheet" href="https://soulteary.com/index.css?v=DawnEve&t=20170714-1r"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/singlePageTemplate.css">
+    <link rel="stylesheet" type="text/css" href="css/activity.css">
+    <link rel="stylesheet" type="text/css" href="css/verticalCenter.css">
+    
+    
+        <link rel="shortcut icon" href="https://soulteary.com/favicon.ico?v=DawnEve&t=20170714-1r">
+    
+        <script type="text/javascript">
+    /**!
+     * @package:    init
+     * @copyright:  Copyright (c) 2007 - &lt;?=OWL_CURRENT_YEAR?>, &lt;?=OWL_COPYRIGHT_DOMAIN?> All Rights Reserved / Available via the MIT license.
+     */
+    
+    top != self && top.host != self.host && (top.location = self.location);
+    (function(d) { d.className = d.className.replace(/\bno-js/, ''); })(document.documentElement);
+    
+    
+    /**!
+     * @package:    global-config
+     * @copyright:  Copyright (c) 2007 - &lt;?=OWL_CURRENT_YEAR?>, &lt;?=OWL_COPYRIGHT_DOMAIN?> All Rights Reserved / Available via the MIT license.
+     *
+     * @todo
+     *          1.更新token实现
+     *          2.更新加载文件失败后的处理
+     */
+    var $CONFIG = {'debug': {}, 'data': {}, 'shim': {}};
+    $CONFIG['Ver'] = 'DawnEve';
+    $CONFIG['timestamp'] = '20170714-1r';
+    $CONFIG['static_url'] = '';
+    $CONFIG['old_browser'] = (navigator.appName.indexOf("Internet Explorer") > -1) && (navigator.appVersion.indexOf("MSIE 9") == -1 && navigator.appVersion.indexOf("MSIE 1") == -1);
+    $CONFIG['debug']['api'] = 'http://test.soulteary.com/?r.gif';
+    $CONFIG['debug']['level'] = 5;
+    $CONFIG['debug']['compatible'] = $CONFIG['old_browser'];
+    $CONFIG['coreLib'] = $CONFIG['old_browser'] ? 'js/core-old.min' : 'js/core.min';
+    $CONFIG['report_token'] = '';
+    $CONFIG['shim']['js'] = true;
+    $CONFIG['shim']['html'] = true;
+    $CONFIG['feature-cover'] = '{"img": "../img/feature-cover.jpg", "title": "阅读更多", "content": "内容。", "btn": {"text": "按钮标题", "link": "./"}}';
+    
+    
+    /**!
+     * @package:    page-debug
+     * @ref:        https://github.com/soulteary/Error-Tracer
+     * @copyright:  Copyright (c) 2007 - &lt;?=OWL_CURRENT_YEAR?>, &lt;?=OWL_COPYRIGHT_DOMAIN?> All Rights Reserved / Available via the MIT license.
+     * @level:      disable (0) < log (5) < debug (4) < info (3) < warn (2) < error (1)
+     * @todo:       1.性能监控兼容性收集
+     */
+    
+      (function (w, y, z) {
+        var c = w.console || null, p = w.performance || null, v = function () {}, o = new Image, d = {}, f = ['count', 'error', 'warn', 'info', 'log', 'debug', 'time', 'timeEnd'];
+        for (var i = 0, j = f.length; i < j; i++) {
+          (function (x, i) {d[x] = c && c[x] ? function () {y.level >= i && y.level <= 5 && (y.compatible?Function.prototype.call.call(c[x], c, Array.prototype.slice.call(arguments)):c[x].apply(c, arguments))} : v})(f[i], i);
+        }
+        d['timeStamp'] = function(){return +new Date;};
+        d['performance'] = p && p.timing ? p.timing : null;
+        d['report'] = function (m) {
+          if (!y || !y.api) {return true;}
+          var a = [], e = encodeURIComponent;
+          for (var x in m) {a.push(x + '=' + e(m[x]));}
+          a.push('r=' + (+new Date));
+          o.src = y.api + a.join('&');
+        };
+        w[z] = d;
+      }(window, $CONFIG['debug'], 'xdebug'));
+    
+    /**!
+     * @package:    Error-Track
+     * @ref:        https://github.com/soulteary/Error-Tracer
+     * @copyright:  Copyright (c) 2007 - &lt;?=OWL_CURRENT_YEAR?>, &lt;?=OWL_COPYRIGHT_DOMAIN?> All Rights Reserved / Available via the MIT license.
+     *
+     * @todo
+     *          1.完成token认证。
+     *          2.更新error-track接口实现
+     */
+    window.onerror = function (errorMsg, url, lineNumber) {
+        var debug = window["xdebug"];
+        debug.report({
+          "type"   : "error",
+          "url"    : url,
+          "line"   : lineNumber,
+          "refer"  : window.location.href,
+          "visitor": document.referrer || '',
+          "date"   : debug.timeStamp(),
+          "text"   : errorMsg,
+          "ua"     : navigator.userAgent,
+          "code"   : 'PAGE-ERROR',
+          "token"  : 'token'
+        });
+    };
+    
+    </script>
+    
+        <!--[if lt IE 9]>
+    <script src="/asset/vendor/shim.min.js?v=DawnEve&t=20170714-1r"></script>
+    <script src="/asset/vendor/respond.min.js?v=DawnEve&t=20170714-1r"></script>
+    <! [endif] -->
+    
+    
+        <link href="https://soulteary.com/feed/" rel="alternate" type="application/rss+xml" title="宝可梦社团" />
+        
+        
+    
+        <script src="https://soulteary.com/asset/vendor/core.min.js?v=DawnEve&t=20170714-1r"></script>
+    <script src="https://soulteary.com/common.js?v=DawnEve&t=20170714-1r"></script>
+    
+    </head>
+    
+    
+        
+    
+    
+    
+    <body >
+    
+        <div class="container1" id="topAnchor">
+                <div id="father" class="container bgcoloring" style="background:rgb(252, 250, 250); color:rgb(8, 8, 8)">
+                <div class="row">
+                        <!-- Navigation -->
+                        <header class="col-md-12">
+                          <a href="">
+                            <h class="logo">CLUB LOOP</h>
+                          </a>
+                          <nav>
+                            <ul>
+                              <li>
+                                <a href="main.html">
+                                  <font color="#FC9F4D">主页</font>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="associations.html">社团</a>
+                              </li>
+                              <li>
+                                <a href="#contact">广场</a>
+                              </li>
+                              <li>
+                                <a href="#contact">消息</a>
+                              </li>
+                            </ul>
+                          </nav>
+                        </header>
+                      </div>
+
+                      <div>
+                            <div class="row" style="height:20px;">
+                      </div>
+
+                      <div>
+                          <div class="row" style="height:50px;">
+                                <div class="col-md-4"></div>
+                              <div class="col-md-3 ">
+                                  <h1 class="strong f">宝可梦社</h1>
+                              </div>
+                              <div class="col-md-1 ">
+                                  <img src="images\community\pokeman.png" class="img-responsive img-circle">
+                              </div>
+                          </div>
+                      </div>
+        
+        <div class="container-fluid main-container" id="J_main-container" ></div>
+                
+                <div class="row">
+                    <div class="col-md-1">
+
+                    </div>
+        <div class="col-md-10 ">
+            <h1 class="hide page-title">首页</h1>
+            <h2 class="page-title">公告帖</h2>
+        </div>
+    </div>
+    
+    
+    
+        
+    
+        
+    
+            
+    
+            <div class="row post-article-normal">
+                    <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div class="post-container">
+                <h2 class="post-title"><a href="" rel="bookmark">DQMJ3 &amp; 口袋日月 通关</a></h2>
+    
+                <div class="meta-box">
+        <span class="m-post-date">
+           <i class="fa fa-calendar-o"></i>
+            
+            
+                2017年07月14日
+            
+        </span>
+    
+        <span class="m-comments-link">
+            <a href="https://soulteary.com/2017/07/15/stage-clear.html#comments"
+               class="ds-thread-count" data-thread-key="f6fe9d17aabf8b14095d2f0b7c5d9882" title="查看《DQMJ3 &amp; 口袋日月 通关》的评论"
+               rel="nofollow noreferrer">
+            <i class="fa fa-comments-o"></i>查看评论</a>
+        </span>
+    </div>
+    
+                <div class="post-content post-expect">
+    
+                    
+                        趁着这阵有空把去年第一时间开坑的两个主收集向的游戏打通了，简单记录一下。
+                    
+    
+                    <a class="more-link btn btn-primary btn-xs" href='https://soulteary.com/2017/07/15/stage-clear.html'>阅读全文</a>
+                </div>
+    
+                
+    <div class="meta-box post-bottom-meta-box hidden-print">
+    
+       
+    
+       
+         <span class="tag-links">
+         <i class="fa fa-tags" aria-hidden="true"></i>
+         <a href="/tags/%E5%8F%A3%E8%A2%8B%E5%A6%96%E6%80%AA.html" rel="tag">口袋妖怪</a>, <a href="/tags/%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%99.html" rel="tag">勇者斗恶龙</a>, <a href="/tags/%E9%80%9A%E5%85%B3.html" rel="tag">通关</a>
+         </span>
+       
+    
+    
+    </div>
+    
+    
+            </div>
+        </div>
+    </div>
+    
+    
+        
+    
+            
+    
+            <div class="row post-article-normal">
+                    <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div class="post-container">
+                <h2 class="post-title"><a href="https://soulteary.com/2017/07/03/improve-print-mode.html" rel="bookmark">优化网站打印（阅读）模式</a></h2>
+    
+                <div class="meta-box">
+        <span class="m-post-date">
+           <i class="fa fa-calendar-o"></i>
+            
+            
+                2017年07月03日
+            
+        </span>
+    
+        <span class="m-comments-link">
+            <a href="https://soulteary.com/2017/07/03/improve-print-mode.html#comments"
+               class="ds-thread-count" data-thread-key="4cfb270922c114473ec36c253d8f38f5" title="查看《优化网站打印（阅读）模式》的评论"
+               rel="nofollow noreferrer">
+            <i class="fa fa-comments-o"></i>查看评论</a>
+        </span>
+    </div>
+    
+                <div class="post-content post-expect">
+    
+                    
+                        作为一只深度“网瘾少年”，偶尔看到喜欢的网页内容，除了会选择使用笔记工具收藏、浏览器收藏夹库加star外，偶尔还会使用纸质打印保存，或者使用浏览器提供的网页转PDF功能留个备份。然而提到打印，多数网页并不是都适合打印的。
+                    
+    
+                    <a class="more-link btn btn-primary btn-xs" href='https://soulteary.com/2017/07/03/improve-print-mode.html'>阅读全文</a>
+                </div>
+    
+                
+    <div class="meta-box post-bottom-meta-box hidden-print">
+    
+       
+    
+       
+         <span class="tag-links">
+         <i class="fa fa-tags" aria-hidden="true"></i>
+         <a href="/tags/%E6%89%93%E5%8D%B0%E6%9C%BA%E6%A0%B7%E5%BC%8F.html" rel="tag">打印机样式</a>, <a href="/tags/%E7%AB%99%E7%82%B9%E7%BB%B4%E6%8A%A4.html" rel="tag">站点维护</a>
+         </span>
+       
+    
+    
+    </div>
+    
+    
+            </div>
+        </div>
+    </div>
+    
+    
+        
+    
+            
+    
+        
+    
+    
+        
+    
+            
+    
+            <div class="row post-article-normal">
+                    <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div class="post-container">
+                <h2 class="post-title"><a href="https://soulteary.com/2017/02/05/record-of-recent.html" rel="bookmark">半年记录</a></h2>
+    
+                <div class="meta-box">
+        <span class="m-post-date">
+           <i class="fa fa-calendar-o"></i>
+            
+            
+                2017年02月05日
+            
+        </span>
+    
+        <span class="m-comments-link">
+            <a href="https://soulteary.com/2017/02/05/record-of-recent.html#comments"
+               class="ds-thread-count" data-thread-key="47c95744defa55d796b83d5e7582aae0" title="查看《半年记录》的评论"
+               rel="nofollow noreferrer">
+            <i class="fa fa-comments-o"></i>查看评论</a>
+        </span>
+    </div>
+    
+                <div class="post-content post-expect">
+    
+                    
+                        同样又是很久没有在这个博客写字了，不过却不是因为困惑或者规划的问题。倒是因为这半年经历了挺多事儿，规划目标方向越来越清晰，知道了自己现阶段工作和生活上到底想要什么。
+                    
+    
+                    <a class="more-link btn btn-primary btn-xs" href='https://soulteary.com/2017/02/05/record-of-recent.html'>阅读全文</a>
+                </div>
+    
+                
+    <div class="meta-box post-bottom-meta-box hidden-print">
+    
+       
+    
+       
+         <span class="tag-links">
+         <i class="fa fa-tags" aria-hidden="true"></i>
+         <a href="/tags/%E5%8D%8A%E5%B9%B4%E8%AE%B0%E5%BD%95.html" rel="tag">半年记录</a>
+         </span>
+       
+    
+    
+    </div>
+    
+    
+            </div>
+        </div>
+    </div>
+    
+    
+        
+    
+            
+    
+       
+        
+    
+    
+    
+                
+                
+    <div class="row home-more-container " style="background:rgb(252, 250, 250); color:rgb(8, 8, 8)">
+        <div class="col-md-12">
+            <h2 class="page-title">更多内容</h2>
+        </div>
+    
+        <div class="col-md-12">
+            <div class="post-container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a class="btn btn-primary home-browser-more-btn" href="/page/2.html">浏览更多帖子</a>
+                    </div>
+                    <div class="col-md-8"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+                
+                
+    <div class="row hidden-print" style="background:rgb(252, 250, 250); color:rgb(8, 8, 8)">
+        <div class="col-md-12">
+            <div class="post-container m-recommend-page"></div>
+            
+        </div>
+    </div>
+    
+    
+    
+            
+    
+        </div>
+    
+    <div style="height:250px">
+
+    </div>
+    
+    <!--Footer-->
+<footer class="page-footer blue center-on-small-only" style="margin-top:-1px">
+        
+            <!--Footer Links-->
+            <div class="container-fluid">
+                <div class="row">
+        
+                    <!--First column-->
+                    <div class="col-md-6">
+                        <h5 class="title">Footer Content</h5>
+                        <p>相关联系人</p>
+                    </div>
+                    <!--/.First column-->
+        
+            
+        
+            <!--Copyright-->
+            <div class="footer-copyright">
+                <div class="container-fluid">
+                    © 2015 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+        
+                </div>
+            </div>
+            <!--/.Copyright-->
+        
+        </footer>
+        <!--/.Footer-->
+    
+    <div class="container " id="J_footer-container" style="background:rgb(252, 250, 250); color:rgb(8, 8, 8)">
+            <a href="#topAnchor" style="position:fixed;right:10;bottom:0">回到顶部</a>
+        <script type="text/javascript">
+            $CONFIG['data']['footerLink'] = [
+                {"name": "网站首页", "link": "/"},
+                {"name": "联系方式", "link": "/about"},
+            ];
+        </script>
+    </div>
+  </div>
+  </div>  
+    
+    
+
+    </body>
+    </html>
+    
+    
