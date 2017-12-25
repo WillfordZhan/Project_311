@@ -110,6 +110,6 @@ p#back-to-top{
     z-index: 5;
     position:fixed;
     display:none;
-    bottom:100px;
-    right:80px;
+    bottom:50px;
+    right:140px;
 }
