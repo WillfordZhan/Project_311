@@ -1,30 +1,7 @@
-
-.father {
-	display: flex;
-	flex-flow: row wrap;
-	align-content:space-around;
-	font-family: 'Diplomata SC', cursive;
-	font-family: 'Lobster', cursive;
-	padding-top: 50px;
-	margin-left: 50px;
-}
-/*p {
-	text-align: center;
-	font-size: 30px;
-	color: #FFFFFF;
-}
-.line-a2 {
-	bottom: 40px;
-	right: 10px;
-}*/
-.line-b1{
-	font-family: 'Diplomata SC', cursive;
-	font-size: 300%;
-}
 .clubsHead {
-	color:white;
-	font-family: 'Diplomata SC', cursive;
-	
+	color:rgb(0, 0, 0);
+	font-family: 'Raleway', sans-serif;
+	font-size: 300%;
 	padding-left: 65px;
 	padding-bottom: 30px;
 }
@@ -65,7 +42,7 @@ li{list-style:none}
 	width: 100%
 }
 /* 外部多级下拉框样式*/
-<span style="font-size:35px;">.dropdown-submenu {  
+.dropdown-submenu {  
 	position: relative;  
 }  
 .dropdown-submenu > .dropdown-menu {  
