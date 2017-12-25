@@ -6,6 +6,12 @@
 	padding-bottom: 30px;
 }
 
+.middle {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .mother {
 	background-color: rgb(192, 178, 167);
 	padding-left: 65px;
