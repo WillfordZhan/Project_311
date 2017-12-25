@@ -133,3 +133,18 @@ ul li:hover a {
 	padding-top: 1.5%;
 }
 
+#Bling {
+  animation: turn 2s infinite;
+}
+  
+.donut-front {
+  z-index: 5;
+  backface-visibility: hidden;
+}
+  
+@keyframes turn {
+  to {
+    transform: rotateY(360deg);
+  }
+}  
+	
