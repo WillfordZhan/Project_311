@@ -245,3 +245,19 @@ form p > * {
 	font-weight: 900;
 	color:rgba(195,71,73,1.00);
 }
+
+img {
+  animation: turn 2s infinite;
+}
+  
+.donut-front {
+  z-index: 5;
+  backface-visibility: hidden;
+}
+  
+@keyframes turn {
+  to {
+    transform: rotateY(360deg);
+  }
+}  
+	
