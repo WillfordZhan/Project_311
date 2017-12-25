@@ -57,7 +57,7 @@
     font-family: adobe-clean, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: rgb(17, 12, 12);
     opacity: 0;
-    align: center;
+    align-content: center;
 }
 
 .activity-content{
