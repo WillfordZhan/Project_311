@@ -11,7 +11,7 @@ jQuery(document).ready(function($){
             }
             cardContent.animate({
                 opacity:1
-            },500);
+            },750);
             //alert('');
             img.addClass("img-card-move");
             //alert('');
@@ -24,7 +24,7 @@ jQuery(document).ready(function($){
             }
             cardContent.animate({
                 opacity:0
-            },500);
+            },750);
             img.removeClass("img-card-move");
             ismouseenter = false;
         });
