@@ -28,14 +28,13 @@ header {
 .logo {
 	color: #000000;
 	transform: scale(1,0.8);
-	font-weight:600;
+	/* font-weight:600; */
 	font-size: 200%;
 	text-align:right;
 	width: 30%;
 	float: left;
 	margin-top: 16px;
 	margin-left: 50px;
-	
 	letter-spacing: 4px;
 }
 nav {
@@ -99,7 +98,7 @@ ul li:hover a {
 
 .STQ_FONT{
 	text-decoration: none;
-	text-shadow: 0px 2px 5px #000;
+	text-shadow: 0px 0px 0px 0px #000;
 	font-family:'宋体';
 	font-size: 64px;
 }
@@ -115,7 +114,7 @@ ul li:hover a {
 .STQ_FONT2{
 	color:#DB4D6D;/*中红*/
 	text-align: center;
-	text-shadow: 0px 2px 1px #FB4F51;
+	text-shadow: 0px 0px 0px #FB4F51;
 	font-size:20px;
 	font-style: italic;
 }
